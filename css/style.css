@@ -41,7 +41,7 @@ body {
 }
 
 .header {
-  background-image: url("../images/bg.jpg");
+  background-image: url("https://ayano.rei.my.id/images/bg.jpg");
   height: 670px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -176,7 +176,7 @@ details > ul {
 }
 
 .footer {
-  background-image: url("../images/bgbawah.jpg");
+  background-image: url("https://ayano.rei.my.id/images/bgbawah.jpg");
   height: 320px;
   background-repeat: no-repeat;
   background-size: 100%;
