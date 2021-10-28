@@ -16,6 +16,12 @@
   h1 {
     font-size: 20px !important;
   }
+  .hpiklan {
+    display: block !important;
+    position: unset !important;
+    margin: 0 auto !important;
+    width: 300px !important;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -41,7 +47,7 @@ body {
 }
 
 .header {
-  background-image: url("https://ayano.rei.my.id/images/bg.jpg");
+  background-image: url("../images/bg.jpg");
   height: 670px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -60,12 +66,17 @@ body {
 
 .description {
   padding-left: 250;
-  width: 400px;
+  width: 300px;
   padding-bottom: 0;
   text-align: left;
   font-size: 20px;
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #f8d3da;
+}
+
+a {
+  text-decoration: none;
+  color: #00bbff;
 }
 
 .button {
@@ -176,7 +187,7 @@ details > ul {
 }
 
 .footer {
-  background-image: url("https://ayano.rei.my.id/images/bgbawah.jpg");
+  background-image: url("../images/bgbawah.jpg");
   height: 320px;
   background-repeat: no-repeat;
   background-size: 100%;
