@@ -1,172 +1,216 @@
 * {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
+  scroll-behavior: smooth !important;
+}
+
+@font-face {
+  font-family: "Seattles Demo";
+  src: 
+    /* IE9 Compat Modes */
+      url("https://ayano.rei.my.id/data/font/SeattlesDemoRegular.eot"); 
+  src: 
+      url("https://ayano.rei.my.id/data/font/SeattlesDemoRegular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ 
+      url("https://ayano.rei.my.id/data/font/SeattlesDemoRegular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://ayano.rei.my.id/data/font/SeattlesDemoRegular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("https://ayano.rei.my.id/data/font/SeattlesDemoRegular.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+.navbar-brand {
+  font-family: "Seattles Demo" !important;
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.bd-placeholder-img-lg {
+  font-size: 3.5rem;
+}
+
+.custom-shape-divider-top-1641554441 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1641554441 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 127px;
+}
+
+.custom-shape-divider-top-1641554441 .shape-fill {
+  fill: #bd839c;
+}
+
+.credit {
+  text-align: center;
+  /*color: #73605f;*/
+  color: #fbf8f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-image: url("https://ayano.rei.my.id/data/img/vectorpaint.svg") !important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.credit img {
+  width: 110px;
+}
+
+.counting {
+  outline-style: solid;
+  background-image: url(https://ayano.rei.my.id/data/img/student-council.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #bd839c;
+  border-radius: 2px;
+}
+
+.tg {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #000;
+}
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-0lax {
+  text-align: center;
+  vertical-align: top;
+}
+
+details {
+  outline-style: solid;
+  margin: 0 auto;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  overflow: auto;
+}
+
+summary {
+  padding: 1rem;
+  display: block;
+  background: transparent;
+  color: #000000;
+  position: relative;
+}
+
+summary:before {
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: 0.2rem 50%;
+  transition: 0.25s transform ease;
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > ul {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+td,
+th {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hide-on-desktop {
+  display: none;
+}
+
+.btn-outline-BD839C {
+  color: #fff;
+  background-color: #bd839c;
+  background-image: none;
+  border-color: #bd839c;
+}
+
+.btn-outline-BD839C:hover {
+  color: #bd839c;
+  background-color: #fff;
+  background-image: none;
+  border-color: #bd839c;
+}
+
+@media (max-width: 768px) {
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
   }
 
-  main>.container {
-    padding: 60px 15px 0;
+  .container-fluid {
+    background: #bd839c;
   }
 
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-
-  .custom-shape-divider-top-1641554441 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-    z-index: -1;
-  }
-
-  .custom-shape-divider-top-1641554441 svg {
-    position: relative;
-    display: block;
-    width: calc(300% + 1.3px);
-    height: 127px;
-  }
-
-  .custom-shape-divider-top-1641554441 .shape-fill {
-    fill: #BD839C;
-  }
-
-  .credit {
-    text-align: center;
-    /*color: #73605f;*/
-    color: #fbf8f9;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  footer {
-    background-image: url("https://ayano.rei.my.id/data/img/vectorpaint.svg") !important;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom;
-  }
-
-  .credit img{
-    width: 110px;
-  }
-
-  .counting {
-    outline-style: solid;
-    background-image: url(https://ayano.rei.my.id/data/img/student-council.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-  }
-
-  ::-webkit-scrollbar {
-    width: 10px;
-    background: transparent;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: #BD839C;
-    border-radius: 2px;
-  }
-
-  .tg {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-    color: #000;
-  }
-  .tg td {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    overflow: hidden;
-    padding: 10px 5px;
-    word-break: normal;
-  }
-  .tg th {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    overflow: hidden;
-    padding: 10px 5px;
-    word-break: normal;
-  }
-  .tg .tg-0lax {
-    text-align: center;
-    vertical-align: top;
-  }
-  
-  details {
-    outline-style: solid;
-    margin: 0 auto;
-    background: #fff;
-    margin-bottom: 0.5rem;
-    overflow: hidden;
-    overflow:auto;  
-  }
-  
-  summary {
-    padding: 1rem;
-    display: block;
-    background: transparent;
-    color: #000000;
-    position: relative;
-  }
-  
-  summary:before {
-    position: absolute;
-    top: 1.3rem;
-    left: 1rem;
-    transform: rotate(0);
-    transform-origin: 0.2rem 50%;
-    transition: 0.25s transform ease;
-  }
-  
-  details[open] > summary:before {
-    transform: rotate(90deg);
-  }
-  
-  details summary::-webkit-details-marker {
+  .hide-on-mobile {
     display: none;
   }
-  
-  details > ul {
-    padding-bottom: 1rem;
-    margin-bottom: 0;
+  footer {
+    background-size: 100% 120px;
   }
-
-  td, th {
-    white-space: nowrap;
-    overflow: hidden;
+  .credit img {
+    width: 100px;
   }
-
-  @media (max-width: 768px) {
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    .container-fluid {
-      background: #BD839C;
-    }
-
-    .hide-on-mobile {
-      display: none;
-    }
-    footer {
-      background-size: 100% 120px;      
-    }
-    .credit img{
-        width: 100px;
-    }
-    .counting {
-        background: transparent;
-    }
+  .counting {
+    background: transparent;
   }
+  .hide-on-desktop {
+    display: block;
+  }
+}
