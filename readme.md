@@ -4,7 +4,7 @@
 
 # Mobile
 
-<img src="./img/sss.png">
+<img src="./data/img/sss.png">
 
 # Credit
 
