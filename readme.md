@@ -1,10 +1,10 @@
 # Desktop
 
-<img src="https://ayano.rei.my.id/data/img/ss.png">
+<img src="./data/img/ss.png">
 
 # Mobile
 
-<img src="https://ayano.rei.my.id/data/img/sss.png">
+<img src="./img/sss.png">
 
 # Credit
 
